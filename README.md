@@ -126,3 +126,14 @@ pytest -v
 
 
 ## Adding Database Queries 
+   1 Create database webhook_payments;
+
+
+   2 CREATE TABLE payment_events (
+    id SERIAL PRIMARY KEY,
+    event_id TEXT UNIQUE NOT NULL,
+    payment_id TEXT NOT NULL,
+    event_type TEXT NOT NULL,
+    payload JSONB NOT NULL,
+    received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
