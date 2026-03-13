@@ -5,10 +5,10 @@ README.md File For Assignment application  setup
 ## Index
 1 Overall Project Structure
 2 Features
-3 [Requirements]  
-4 [Setup](#setup)  
-5 [Running the App]
-6 [Running Tests] 
+3 Requirements 
+4 Setup  
+5 Running the App
+6 Running Tests
 
 
 
@@ -123,3 +123,6 @@ pytest -v
 
 1 test_webhook.py ensures the webhook endpoint validates HMAC and processes payload.
 2 test_get_events.py checks that payment events are correctly stored and retrieved.
+
+
+## Adding Database Queries 
