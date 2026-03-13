@@ -1,0 +1,19 @@
+{
+  "id": "evt_fail_001",
+  "event": "payment.failed",
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_001",
+        "order_id": "order_123",
+        "amount": 1000,
+        "currency": "INR",
+        "status": "failed",
+        "method": "card",
+        "email": "customer1@example.com",
+        "contact": "+919812345678"
+      }
+    }
+  },
+  "created_at": 1751886085
+}

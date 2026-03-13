@@ -1,0 +1,18 @@
+{
+  "id": "evt_001",
+  "event": "payment.authorized",
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_014",
+        "order_id": "order_789",
+        "amount": 50000,
+        "currency": "INR",
+        "status": "authorized",
+        "method": "card",
+        "email": "customer@example.com",
+        "contact": "+919876543210"
+      }
+    }
+  }
+}

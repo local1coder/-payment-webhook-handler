@@ -1,0 +1,19 @@
+{
+  "id": "evt_cap_004",
+  "event": "payment.captured",
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_004",
+        "order_id": "order_456",
+        "amount": 4000,
+        "currency": "INR",
+        "status": "captured",
+        "method": "card",
+        "email": "customer2@example.com",
+        "contact": "+919876543210"
+      }
+    }
+  },
+  "created_at": 1751886985
+}
